@@ -1,7 +1,13 @@
-import WorldMap from './components/worldMap/worldMap'
+import React from "react";
+import MapContainer from "./components/MapContainer";
 
 function App() {
-  return <WorldMap />
+  return (
+    <div className="app">
+      <h1>World Map - Countries Recognizing Palestine</h1>
+      <MapContainer />
+    </div>
+  );
 }
 
-export default App
+export default App;
